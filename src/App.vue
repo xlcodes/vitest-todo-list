@@ -1,8 +1,11 @@
 <script setup lang="ts">
+import PiniaTodoList from "./components/pinia-todo/index.vue";
 </script>
 
 <template>
-<div>App Page</div>
+<div>
+  <PiniaTodoList />
+</div>
 </template>
 
 <style scoped>
