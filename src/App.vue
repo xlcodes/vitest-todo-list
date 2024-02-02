@@ -1,9 +1,11 @@
-<script setup lang="ts">
-</script>
-
 <template>
-<div>App Page</div>
-</template>
+  <h2>一个图表控制多个数据</h2>
+  <OnlyChars/>
+  <h2>创建多个图表</h2>
+  <ChartsList />
 
-<style scoped>
-</style>
+</template>
+<script setup lang="ts">
+import OnlyChars from "./components/OnlyChars.vue";
+import ChartsList from "./components/ChartsList.vue";
+</script>
